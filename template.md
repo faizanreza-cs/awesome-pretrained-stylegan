@@ -1,13 +1,13 @@
 # Awesome Pretrained StyleGAN
 
-A collection of pre-trained [StyleGAN](https://github.com/NVlabs/stylegan) models trained on different datasets at different resolution.
+A collection of pre-trained [StyleGAN](https://github.com/NVlabs/stylegan) models trained on different datasets at a different resolutions.
 
 _For the equivalent collection for StyleGAN 2, see [this repo](https://github.com/justinpinkney/awesome-pretrained-stylegan2)_
 
 {% for model in models %}
 [![](images/thumbs/{{ model.name | replace(" ", "%20") }}.jpg)](#{{ model.name | replace(" ", "-")}}){% endfor %}
 
-If you have a publically accessible model which you know of, or would like to share please see the [contributing](#contributing) section. _Hint: the simplest way to submit a model is to fill in this [form](https://forms.gle/rUU9kJf2YaAUhSJ66)._
+If you have a publically accessible model that you know of or would like to share please see the [contributing](#contributing) section. _Hint: the simplest way to submit a model is to fill in this [form](https://forms.gle/rUU9kJf2YaAUhSJ66)._
 
 ### Table of Contents
 
